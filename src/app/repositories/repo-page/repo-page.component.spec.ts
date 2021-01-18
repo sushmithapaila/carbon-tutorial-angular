@@ -10,7 +10,7 @@ describe('RepoPageComponent', () => {
 
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
-			declarations: [ RepoPageComponent ]
+			declarations: [ RepoPageComponent, RepoTableComponent ]
 		})
 		.compileComponents();
 	}));
@@ -24,6 +24,5 @@ describe('RepoPageComponent', () => {
 	it('should create', () => {
 		expect(component).toBeTruthy();
 	});
-});
 
-declarations: [ RepoPageComponent, RepoTableComponent ], ;
+});
