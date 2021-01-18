@@ -17,7 +17,7 @@ describe('HeaderComponent', () => {
 			imports: [ UIShellModule,
 					Notification20Module,
 					UserAvatar20Module,
-					AppSwitcher0Module
+					AppSwitcher20Module
  ]
 
 		})
