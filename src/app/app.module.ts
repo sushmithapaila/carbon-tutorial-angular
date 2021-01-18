@@ -31,9 +31,9 @@ import { Link1Component } from './pages/link1/link1.component';
 		FormsModule,
 		AppRoutingModule,
 		UIShellModule,
-		Notification20Module,
-		UserAvatar20Module,
-		AppSwitcher20Module
+		NotificationModule,
+		UserAvatarModule,
+		AppSwitcherModule
 	],
 	bootstrap: [AppComponent]
 })
